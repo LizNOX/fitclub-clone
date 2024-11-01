@@ -1,0 +1,13 @@
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+#mainHeader {
+  display: flex;
+}
+
+#mainHeader ul {
+  display: flex;
+  gap: 10px;
+}
