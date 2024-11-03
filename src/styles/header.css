@@ -1,0 +1,45 @@
+#firstHeader p:first-child {
+  color: #d79447;
+  font-weight: 700;
+}
+
+#firstHeader p:nth-child(3) {
+  color: #d1d5db;
+}
+
+#firstHeader h1 {
+  font-size: 5em;
+}
+
+#firstHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 19%;
+  margin-left: 19%;
+}
+
+#firstHeader div {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#firstHeader span {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+#firstHeader img {
+  height: auto;
+  max-width: 350px;
+  width: 100%;
+  margin-right: 80px;
+}
+
+#firstHeader button {
+  margin-top: 30px;
+}

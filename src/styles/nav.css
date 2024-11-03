@@ -1,0 +1,27 @@
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+#firstNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 19% 0 19%;
+  flex-wrap: wrap;
+}
+
+#firstNav ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#firstNav a {
+  color: #d1d5db;
+}
+
+#firstNav a:hover {
+  transition: 0.5s linear;
+  border-bottom: solid 2px #d79447;
+}

@@ -1,3 +1,11 @@
 @import url(./styles/body.css);
-@import url(./styles/mainHeader.css);
+@import url(./styles/nav.css);
 @import url(./styles/firstSection.css);
+@import url(./styles/button.css);
+@import url(./styles/header.css);
+@import url(./styles/secondSection.css);
+@import url(./styles/thirdSection.css);
+@import url(./styles/fourthSection.css);
+@import url(./styles/fifthSection.css);
+@import url(./styles/footer.css);
+@import url(./styles/animation.css);

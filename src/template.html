@@ -6,87 +6,91 @@
     <title>FITCLUB</title>
   </head>
   <body>
-    <nav id="mainHeader">
+    <nav id="firstNav">
       <a href="#"><img id="logo" src="img/logo.png" alt="fitclub logo" /></a>
       <ul>
-        <li>Home</li>
-        <li>Program</li>
-        <li>Service</li>
-        <li>About</li>
-        <li>Community</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Community</a></li>
       </ul>
-      <button type="button">Join Now</button>
+      <button class="buttonOne" type="button">Join Now</button>
     </nav>
+
     <main>
-      <header>
-        <p>BEST FITNESS IN TOWN</p>
-        <h1>MAKE YOUR BODY SHAPE</h1>
-        <p>
-          Unleash your potential and embark on a journey towards a stronger,
-          fitter and more confident you. Sign up for 'Make Your Body Shape' now
-          and witness the incredible transformation your body is capable of!
-        </p>
-        <button type="button">Get Started</button>
+      <header id="firstHeader">
+        <div>
+          <p>BEST FITNESS IN TOWN</p>
+          <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
+          <p>
+            Unleash your potential and embark on a journey towards a stronger,
+            fitter and more confident you. Sign up for 'Make Your Body Shape'
+            now and witness the incredible transformation your body is capable
+            of!
+          </p>
+          <button id="animated-button" class="buttonOne" type="button">
+            Get Started
+          </button>
+        </div>
         <img src="./img/header.png" alt="man working out" />
       </header>
-      <section>
+
+      <section id="first-section">
         <div>
           <h2>EXPLORE OUR PROGRAM</h2>
-          <a href="#">left arrow</a>
-          <a href="#">right arrow</a>
+          <div>
+            <a class="animatedarrowone animations" href="#">🡨</a>
+            <a class="animatedarrowtwo animations" href="#">🡪</a>
+          </div>
         </div>
         <nav id="first-section-nav">
           <ul>
             <li>
-              img placeholder
+              <img src="./icons/strength.png" alt="" />
               <h3>Strength</h3>
               <p>
                 Embrace the essence of strength as we delve into its various
                 dimensions physical, mental, and emotional.
               </p>
-              <button type="button">
-                Join Now IMG PLACEHOLDER right arrow
-              </button>
+              <a href="#"> Join Now ➔</a>
             </li>
             <li>
-              img placeholder
+              <img src="./icons/fitness.png" alt="" />
               <h3>Physical Fitness</h3>
               <p>
                 It encompasses a range of activities that improve health,
                 strength, flexibility, and overall well-being.
               </p>
-              <button type="button">
-                Join Now IMG PLACEHOLDER right arrow
-              </button>
+              <a href="#"> Join Now ➔</a>
             </li>
             <li>
-              img placeholder
+              <img src="./icons/fatlose.png" alt="" />
               <h3>Fat Lose</h3>
               <p>
                 Through a combination of workout routines and expert guidance,
                 we'll empower you to reach your goals.
               </p>
-              <button type="button">
-                Join Now IMG PLACEHOLDER right arrow
-              </button>
+              <a href="#"> Join Now ➔</a>
             </li>
             <li>
-              img placeholder
+              <img src="./icons/weight.png" alt="" />
               <h3>Weight Gain</h3>
               <p>
                 Designed for individuals, our program offers an effective
                 approach to gaining weight in a sustainable manner.
               </p>
-              <button type="button">
-                Join Now IMG PLACEHOLDER right arrow
-              </button>
+              <a href="#"> Join Now ➔</a>
             </li>
           </ul>
         </nav>
       </section>
-      <section>
-        <img src="./img/class-1.jpg" alt="man working out" />
-        <img src="./img/class-2.jpg" alt="man working out" />
+
+      <section id="second-section">
+        <div>
+          <img src="./img/class-1.jpg" alt="man working out" />
+          <img id="absolute" src="./img/class-2.jpg" alt="man working out" />
+        </div>
         <article>
           <h2>THE CLASS YOU WILL GET HERE</h2>
           <p>
@@ -97,95 +101,146 @@
             engaged and challenged, ensuring you never hit a plateau in your
             fitness endeavours.
           </p>
-          <button type="button">Book A Class</button>
+          <button class="buttonOne" type="button">Book A Class</button>
         </article>
       </section>
-      <section>
+
+      <section id="third-section">
         <h2>WHY JOIN US ?</h2>
         <p>
           Our diverse membership base creates a friendly and supportive
           atmosphere, where you can make friends and stay motivated.
         </p>
         <img src="./img/join.jpg" alt="woman working out" />
-        <div>
-          <div>
-            IMG PLACEHOLDER
-            <h3>Personal Trainer</h3>
-            <p>Unlock your potential with our expert Personal Trainers.</p>
+        <div id="membership">
+          <div class="advantages">
+            <img src="./icons/trainer.png" alt="" />
+            <div>
+              <h3>Personal Trainer</h3>
+              <p>Unlock your potential with our expert Personal Trainers.</p>
+            </div>
           </div>
-          <div>
-            IMG PLACEHOLDER
-            <h3>Practice Sessions</h3>
-            <p>Elevate your fitness with practice sessions.</p>
+
+          <div class="advantages">
+            <img src="./icons/practice.png" alt="" />
+            <div>
+              <h3>Practice Sessions</h3>
+              <p>Elevate your fitness with practice sessions.</p>
+            </div>
           </div>
-          <div>
-            IMG PLACEHOLDER
-            <h3>Good Management</h3>
-            <p>Supportive management, for your fitness success.</p>
+
+          <div class="advantages">
+            <img src="./icons/management.png" alt="" />
+            <div>
+              <h3>Good Management</h3>
+              <p>Supportive management, for your fitness success.</p>
+            </div>
           </div>
         </div>
       </section>
-      <section>
+
+      <section id="fourth-section">
         <h2>OUR PRICING PLAN</h2>
-        <p>
+        <p id="plan-paragraph">
           Our pricing plan comes with various membership tiers, each tailored to
           cater to different preferences and fitness aspirations.
         </p>
-        <section>
-          <h3>Basic plan</h3>
-          <p>$16</p>
-          <ul>
-            <li>Smart workout plan</li>
-            <li>At home workouts</li>
-          </ul>
-          <button type="button">Join Now</button>
-        </section>
-        <section>
-          <h3>Weekly Plan</h3>
-          <p>$25</p>
-          <ul>
-            <li>PRO Gyms</li>
-            <li>Smart workout plan</li>
-            <li>At home workouts</li>
-          </ul>
-          <button type="button">Join Now</button>
-        </section>
-        <section>
-          <h3>Monthly Plan</h3>
-          <p>$45</p>
-          <ul>
-            <li>ELITE Gyms & Classes</li>
-            <li>PRO Gyms</li>
-            <li>Smart workout plan</li>
-            <li>At home workouts</li>
-            <li>Personal Training</li>
-          </ul>
-          <button type="button">Join Now</button>
-        </section>
+        <div>
+          <section class="plans">
+            <div>
+              <h3>Basic plan</h3>
+              <p>$16</p>
+              <ul>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> Smart workout plan
+                </li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> At home workouts
+                </li>
+              </ul>
+            </div>
+            <button class="plan-button" type="button">Join Now</button>
+          </section>
+
+          <section class="plans">
+            <div>
+              <h3>Weekly Plan</h3>
+              <p>$25</p>
+              <ul>
+                <li><img src="./icons/checkmark.png" alt="" /> PRO Gyms</li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> Smart workout plan
+                </li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> At home workouts
+                </li>
+              </ul>
+            </div>
+            <button class="plan-button" type="button">Join Now</button>
+          </section>
+
+          <section class="plans">
+            <div>
+              <h3>Monthly Plan</h3>
+              <p>$45</p>
+              <ul>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> ELITE Gyms &
+                  Classes
+                </li>
+                <li><img src="./icons/checkmark.png" alt="" /> PRO Gyms</li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> Smart workout plan
+                </li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> At home workouts
+                </li>
+                <li>
+                  <img src="./icons/checkmark.png" alt="" /> Personal Training
+                </li>
+              </ul>
+            </div>
+            <button class="plan-button" type="button">Join Now</button>
+          </section>
+        </div>
       </section>
-      <section>
-        QUOTATION MARKS?
+
+      <section id="fifth-section">
+        <span>❞</span>
         <article>
           <h2>MEMBER REVIEW</h2>
-          <p>
+          <p id="review-paragraph">
             What truly sets this gym apart is their expert team of trainers. The
             trainers are knowleageable, approachable, and genuinely invested in
             helping members achieve their fitness goals. They take the time to
             understand individual needs and create personalized workout plans,
             ensuring maximum results and safety.
           </p>
+          <div id="review-stars">
+            <img src="./icons/star.png" alt="star" />
+            <img src="./icons/star.png" alt="star" />
+            <img src="./icons/star.png" alt="star" />
+            <img src="./icons/star.png" alt="star" />
+            <img src="./icons/half-star.png" alt="half-star" />
+          </div>
           <footer>
-            ICON PLACEHOLDER
-            <div>
-              <p>Jane Cooper</p>
-              <p>Software Developer</p>
+            <div id="member-review">
+              <img src="./img/member.jpg" alt="Jane Cooper" />
+              <div>
+                <p>Jane Cooper</p>
+                <p>Software Developer</p>
+              </div>
+            </div>
+            <div id="member-arrow">
+              <a href="#">🡨</a>
+              <a href="#">🡪</a>
             </div>
           </footer>
         </article>
-        LEFT ARROW RIGHT ARROW
       </section>
-      <footer>
-        <section>
+
+      <footer id="footer">
+        <section id="footer-section-one">
           <img src="./img/logo.png" alt="fitclub logo" />
           <p>
             Take the first step towards a healthier, stronger you with our
@@ -194,13 +249,35 @@
           </p>
           <nav>
             <ul>
-              <li><a href="#">FACEBOOK PLACEHOLDER</a></li>
-              <li><a href="#">INSTAGRAM PLACEHOLDER</a></li>
-              <li><a href="#">TWITTER PLACEHOLDER</a></li>
+              <li>
+                <a class="icon-container" href="#"
+                  ><img
+                    class="footer-icons"
+                    src="./icons/facebook.png"
+                    alt="facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a class="icon-container" href="#"
+                  ><img
+                    class="footer-icons"
+                    src="./icons/instagram.png"
+                    alt="instagram icon"
+                /></a>
+              </li>
+              <li>
+                <a class="icon-container" href="#"
+                  ><img
+                    class="footer-icons"
+                    src="./icons/twitter.png"
+                    alt="twitter icon"
+                /></a>
+              </li>
             </ul>
           </nav>
         </section>
-        <section>
+
+        <section class="footer-sections">
           <h2>Company</h2>
           <nav>
             <ul>
@@ -211,7 +288,8 @@
             </ul>
           </nav>
         </section>
-        <section>
+
+        <section class="footer-sections">
           <h2>About Us</h2>
           <nav>
             <ul>
@@ -221,7 +299,8 @@
             </ul>
           </nav>
         </section>
-        <section>
+
+        <section class="footer-sections">
           <h2>Contact</h2>
           <nav>
             <ul>
@@ -233,6 +312,7 @@
           </nav>
         </section>
       </footer>
+      <button id="topbutton" type="button">🡩</button>
     </main>
   </body>
 </html>

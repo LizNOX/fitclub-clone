@@ -1,0 +1,64 @@
+#fifth-section {
+  background-color: #1f2125;
+  display: flex;
+  margin-top: 70px;
+  padding-left: 22%;
+  padding-right: 19%;
+  min-height: 550px;
+}
+
+#fifth-section span {
+  font-size: 8em;
+  color: #d79447;
+  margin-top: 110px;
+  margin-right: 25px;
+}
+
+#fifth-section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+#fifth-section img {
+  height: auto;
+  width: 50px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+#fifth-section footer {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#member-review {
+  display: flex;
+  gap: 15px;
+}
+
+#member-arrow {
+  display: flex;
+  gap: 30px;
+}
+
+#member-arrow a {
+  color: #d79447;
+  font-size: 2em;
+}
+
+#review-paragraph {
+  color: #d1d5db;
+  max-width: 800px;
+}
+
+#review-stars img {
+  height: auto;
+  width: 20px;
+}

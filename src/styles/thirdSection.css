@@ -1,0 +1,66 @@
+#third-section {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  margin-right: 19%;
+  margin-left: 19%;
+}
+
+#third-section h2 {
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+#third-section p:nth-child(2) {
+  max-width: 600px;
+  margin: auto;
+  color: #d1d5db;
+}
+
+#third-section img:nth-child(3) {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#membership {
+  display: flex;
+  background-color: #1f2125;
+  border-radius: 10px;
+  margin-top: -110px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-height: 130px; */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+#membership img {
+  width: 30px;
+  height: auto;
+  padding: 10px;
+  background-color: #d79447;
+  border-radius: 5px;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.advantages div {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  text-align: start;
+}

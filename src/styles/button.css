@@ -1,0 +1,46 @@
+.buttonOne {
+  background-color: #f9ac54;
+  border-radius: 4px;
+  padding: 13px 30px;
+  font-size: 1em;
+  max-width: 160px;
+}
+
+.buttonOne:hover {
+  background-color: #d79447;
+  cursor: pointer;
+}
+
+.plan-button {
+  background-color: transparent;
+  color: #d79447;
+  border: #d79447 solid 2px;
+  padding: 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1em;
+  transition: 0.1s linear;
+}
+
+.plan-button:hover {
+  background-color: #d79447;
+  color: #d1d5db;
+  cursor: pointer;
+}
+
+#topbutton {
+  font-size: 20px;
+  color: #d79447;
+  background-color: #1f2125;
+  border: #d79447 solid 2px;
+  border-radius: 32px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  padding: 12px 17px 12px 17px;
+}
+
+#topbutton:hover {
+  background-color: #35373b;
+}

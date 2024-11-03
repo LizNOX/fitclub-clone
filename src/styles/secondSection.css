@@ -1,0 +1,58 @@
+#second-section img:first-child {
+  max-width: 500px;
+  min-width: 210px;
+  width: 100%;
+  height: auto;
+}
+
+#second-section img {
+  border-radius: 20px;
+}
+
+#second-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  margin-top: 170px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 19%;
+  margin-left: 19%;
+}
+
+#second-section div {
+  position: relative;
+  display: flex;
+}
+
+#absolute {
+  height: auto;
+  max-width: 300px;
+  min-width: 210px;
+  width: 100%;
+  position: absolute;
+  left: -70px;
+  bottom: -90px;
+}
+
+#second-section article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#second-section h2 {
+  max-width: 450px;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+#second-section button {
+  max-width: 165px;
+  margin-top: 30px;
+}
+
+#second-section p {
+  color: #d1d5db;
+}
